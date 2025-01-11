@@ -1,0 +1,156 @@
+/* Общие стили */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #1e90ff;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+/* Верхний блок */
+.top-bar {
+  background: #f1c40f;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 16px;
+}
+
+.top-bar a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Шапка */
+header {
+  background: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #fff;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Главный баннер */
+.hero {
+  background: linear-gradient(45deg, #1e90ff, #6a5acd);
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+.hero .btn {
+  background: #fff;
+  color: #1e90ff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  transition: all 0.3s;
+}
+
+.hero .btn:hover {
+  background: #1e90ff;
+  color: #fff;
+}
+
+/* Разделы */
+.steps {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.step {
+  max-width: 300px;
+  margin: 20px;
+  padding: 20px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.step h3 {
+  color: #1e90ff;
+  font-size: 20px;
+}
+
+/* Форма */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form input, form textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background: #1e90ff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #6a5acd;
+}
+
+/* Подвал */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
